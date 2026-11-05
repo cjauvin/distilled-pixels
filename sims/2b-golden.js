@@ -268,7 +268,7 @@
     year: 1983,
     title: 'Dig to trap',
     games: ['Lode Runner (1983)'],
-    essence: 'Collect all the gold while guards chase you over floors and ladders. Dig a hole in the brick beside you and a chasing guard falls in, stuck until the brick grows back over it.',
+    essence: 'Collect all the gold while guards chase you over floors and ladders. Dig a hole in the brick beside you and a chasing guard falls in and is buried if the brick grows back first.',
     channels: { agent: 'runner', enemy: 'guards (dim = trapped)', reward: 'gold', object: 'ladders (dim)', wall: 'bricks (dim = dug hole)' },
     fps: 6,
     maxTicks: 500,

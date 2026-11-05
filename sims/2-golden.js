@@ -737,7 +737,7 @@
     year: 1981,
     title: 'Scrolling shooter',
     games: ['Scramble (1981)', 'Gradius (1985)'],
-    essence: 'The landscape scrolls past a ship that can only climb, dive and fire ahead. Thread the gap between ceiling and ground, shoot the targets, and dodge rockets as they lift off.',
+    essence: 'The landscape scrolls past a ship that climbs, dives and fires ahead. Thread the gap between ceiling and ground, shoot the targets, and dodge rockets as they lift off.',
     channels: { agent: 'ship (dim = shots)', enemy: 'rockets (dim = exhaust, blast)', reward: 'fuel tanks (dim = blast)', wall: 'terrain' },
     fps: 7,
     warmup: 10,

@@ -10,7 +10,7 @@
     id: 'danmaku',
     year: 1995,
     title: 'Bullet patterns',
-    games: ['Batsugun (1993)', 'DonPachi (1995)', 'Touhou Project (1996)'],
+    games: ['Batsugun (1993)', 'DonPachi (1995)', 'Touhou Project (1997)'],
     essence: 'A boss fills the screen with rings, spirals and aimed bursts of slow bullets. You weave through the gaps, one touch ends the run, and you chip away at its health from below.',
     channels: { agent: 'ship, shots (dim)', enemy: 'boss, bullets (dim)' },
     w: DM, h: DM,
