@@ -74,7 +74,6 @@
   .sw { width: 18px; height: 18px; display: inline-block; margin-top: 1px; }
   .pair { display: flex; }
   .channels li { grid-template-columns: 36px 1fr; }
-  .note { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; margin: 0; }
 
   .ruler { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-block: 1px solid var(--line); padding-block: 10px 8px; margin-bottom: 8px; }
   body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
@@ -147,7 +146,6 @@
         <li><span class="pair"><span class="sw" style="background:var(--ch-object)"></span><span class="sw" style="background:var(--ch-object-dim)"></span></span><span><b>Object</b><small>neutral: pushed, carried, built</small></span></li>
         <li><span class="pair"><span class="sw" style="background:var(--ch-wall)"></span><span class="sw" style="background:var(--ch-wall-dim)"></span></span><span><b>Wall</b><small>static terrain and bounds</small></span></li>
       </ul>
-      <p class="note">Each colour comes in two shades. Full is the thing itself; dim is its trail, body, shot or weaker state. A red square where the player was marks a loss.</p>
     </aside>
   </header>
 
