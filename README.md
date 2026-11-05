@@ -15,6 +15,13 @@ of plain coloured squares with one shared colour scheme.
 
 Each colour has a full and a dim shade; dim is a trail, body, shot or weaker state.
 
+## Where the idea came from
+
+From a small detail in [Sparks of Weight-Space Programming](https://rikiyat.github.io/blog/weight-space-programming/)
+by Rikiya Takehi, Jayden Teoh, Alex Zhang and Omar Khattab (MIT CSAIL, 2026). To test whether a language
+model can tell from raw weights which game a network was trained on, the authors built their own 10×10 grid
+versions of Breakout, Pong, Pac-Man and Freeway. This project takes those little grids and runs with them.
+
 ## Layout
 
 - `index.html` – the page (no build step; open it directly or serve the folder)

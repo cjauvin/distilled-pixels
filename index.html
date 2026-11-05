@@ -66,7 +66,6 @@
   .lede + .lede { margin-top: 10px; color: var(--muted); }
 
   .legend { border: 1px solid var(--line); background: var(--panel); padding: 18px 20px; display: grid; gap: 12px; }
-  .legend h2 { font: 500 12px/1 var(--mono); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin: 0; }
   .channels { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px 16px; margin: 0; padding: 0; list-style: none; }
   .channels li { display: grid; grid-template-columns: 18px 1fr; gap: 10px; align-items: start; font-size: 13.5px; line-height: 1.35; }
   .channels b { font-weight: 600; display: block; }
@@ -138,7 +137,6 @@
       <p class="lede">Here, each classic arcade game is boiled down to the rule that makes it fun: what you control, what is out to get you, and what you are trying to reach. They all play out on the same small grid, in the same five colours, so you can see at a glance how Pong grew into Breakout, or what Pac-Man and Bomberman have in common.</p>
     </div>
     <aside class="legend" aria-label="Visual vocabulary">
-      <h2>Channels</h2>
       <ul class="channels">
         <li><span class="pair"><span class="sw" style="background:var(--ch-agent)"></span><span class="sw" style="background:var(--ch-agent-dim)"></span></span><span><b>Agent</b><small>what the player controls</small></span></li>
         <li><span class="pair"><span class="sw" style="background:var(--ch-enemy)"></span><span class="sw" style="background:var(--ch-enemy-dim)"></span></span><span><b>Threat</b><small>opponents, hazards, moving danger</small></span></li>
@@ -170,6 +168,10 @@
     <div>
       <h2>Why a grid</h2>
       <p>A tiny grid strips away art, sound and scale, so what is left is the logic: movement rules, collisions, spawns and scoring. Mechanics that look nothing alike on screen often turn out to be close relatives here.</p>
+    </div>
+    <div>
+      <h2>Where the idea came from</h2>
+      <p>From a small detail in <a href="https://rikiyat.github.io/blog/weight-space-programming/" target="_blank" rel="noopener">Sparks of Weight-Space Programming</a> by Rikiya Takehi, Jayden Teoh, Alex Zhang and Omar Khattab (MIT CSAIL, 2026), a post about language models that can read and write neural network weights. To test one idea, the authors built their own tiny grid versions of Breakout, Pong, Pac-Man and Freeway. This page takes those little grids and runs with them.</p>
     </div>
     <div>
       <h2>What comes next</h2>
