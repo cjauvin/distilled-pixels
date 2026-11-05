@@ -1,9 +1,9 @@
-# Grid Mechanics Atlas
+# Cabinet of Distilled Pixels
 
 Classic arcade games reduced to the rule that makes them play, each running live on a small grid
 of plain coloured squares with one shared colour scheme.
 
-**Live page:** https://cjauvin.github.io/game-prototype-grids/
+**Live page:** https://cjauvin.github.io/distilled-pixels/
 
 | colour | channel | meaning |
 |--------|---------|---------|

@@ -1,5 +1,5 @@
 /*
- * Grid Mechanics engine.
+ * Cabinet of Distilled Pixels: simulation engine.
  *
  * Every mechanic is a tiny simulation on a small grid, drawn with one shared
  * visual vocabulary of five channels:
