@@ -3,7 +3,7 @@
 Classic arcade games reduced to the rule that makes them play, each running live on a small grid
 of plain coloured squares with one shared colour scheme.
 
-**Live page:** https://cjauvin.github.io/distilled-pixels/
+**Live page:** https://cjauvin.github.io/pixel-cabinet/
 
 | colour | channel | meaning |
 |--------|---------|---------|
